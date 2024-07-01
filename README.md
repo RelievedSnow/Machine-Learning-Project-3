@@ -37,6 +37,9 @@
 * Storing labelled data 'price' into Y.
 
 # Splitting the data into Training Data and Test Data.
+* We split the Data into Training Data and Testing Data using the train_test_split.
+* 'test_size' is the percent in which our dataset in split for traning and testing. [0.1 = 10%-90%, 0.2 = 20%-80%].
+* random_state() function is a pseudo number that allows you to reproduce the same train_test split each time.
 
 # Model Training (We are using XGBoost Regressor Model).
 * Loading the model by using XGBRegressor() and storing it's function in the 'model' variable. 
