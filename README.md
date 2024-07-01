@@ -25,7 +25,7 @@
 * Now lets find the statistical measures of the data using '.describe()' function.
 
 # Understanding Correlation between Features(Columns) in the dataset.
-* 1.Positive Correlation ->  When one feature value increases than the other Feature value also increases.
+1.Positive Correlation ->  When one feature value increases than the other Feature value also increases.
 * eg. if the rooms in house increases the price increases.
 2. Negative Correlation -> When value of One Feature increases the other decreases.
 * eg. if the crime in area increases the house price decreases.
