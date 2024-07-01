@@ -51,4 +51,9 @@
 
 # We can Predect the Data in two ways(Data without any Errors).
 1. Visualizing the actual price and predicted price using graph(Scatter Graph).
+* We use the .scatter() function and provide the 'Y_train' labelled data againt the predicted data and apply proper labels and Title to the graph.
 2. Predicting by inputting feature values.
+* We create a variable 'input_data' to enter the input values as list.
+* We reshape the input data from 1-D to 2-D as we are providing it in 1-D form.
+* We convert the 'input_data_reshaped' value into standardized data as we have provided the model with 'standardized_data'. So if we provide raw values it will fail to predict.
+* Now we make predictions.
