@@ -27,7 +27,7 @@
 # Understanding Correlation between Features(Columns) in the dataset.
 * 1.Positive Correlation ->  When one feature value increases than the other Feature value also increases.
 * eg. if the rooms in house increases the price increases.
-* 2. Negative Correlation -> When value of One Feature increases the other decreases.
+2. Negative Correlation -> When value of One Feature increases the other decreases.
 * eg. if the crime in area increases the house price decreases.
 * Constructing a heatmap to understand correlation.
 * Correlation, colorbar, values in square, 1f means 1 value after decimal point, annot means feature names and it's size 8, cmap is color of the haetmap.
